@@ -1,2 +1,6 @@
 pierwsza linijka 
+<<<<<<< HEAD
 gtgtgtgttgtgtgtgtgtgt
+=======
+wawawawawawawaw
+>>>>>>> 61ab8a1efef2e6ee8156874a0533605724096804
