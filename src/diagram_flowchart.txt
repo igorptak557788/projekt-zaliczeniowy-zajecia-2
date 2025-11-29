@@ -1,0 +1,44 @@
+Projekt: Aplikacja do planowania nauki
+Projekt dotyczy aplikacji pomagającej planować naukę. Rozwiązuje problem braku struktury i przeładowania informacjami w trakcie studiów. Odbiorcami są osoby 18–25 lat, które chcą lepiej organizować zadania. W aplikacji znajdą się: lista zadań, kalendarz tygodniowy i proste statystyki.
+
+ASCII flowchart:
+
++-------------------+
+|       START       |
++-------------------+
+         |
+         v
++---------------------------+
+| Logowanie / Profil użytk. |
++---------------------------+
+         |
+         v
++---------------------------+
+|  Dodaj / Edytuj zadanie   |
++---------------------------+
+         |
+         v
++-----------+   +-------------------+
+|  Lista    |<--|  Synchronizacja   |
+| zadań     |   |  / przypomnienia  |
++-----------+   +-------------------+
+         |
+         v
++---------------------------+
+| Kalendarz tygodniowy      |
++---------------------------+
+         |
+         v
++---------------------------+
+| Proste statystyki (postęp)|
++---------------------------+
+         |
+         v
++-------------------+
+|   Powiadomienia   |
++-------------------+
+         |
+         v
++-------------------+
+|       KONIEC      |
++-------------------+
