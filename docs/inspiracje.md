@@ -1,6 +1,4 @@
-markdown
 
-# Inspiracje 
 
 Inspiracje projektu - plik: inspiracje.txt
 
