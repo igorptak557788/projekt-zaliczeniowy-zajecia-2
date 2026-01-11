@@ -1,51 +1,23 @@
-markdown
-
-# Diagram Projektu
-
-Projekt: Aplikacja do planowania nauki
-Projekt dotyczy aplikacji pomagającej planować naukę. Rozwiązuje problem braku struktury i przeładowania informacjami w trakcie studiów. Odbiorcami są osoby 18–25 lat, które chcą lepiej organizować zadania. W aplikacji znajdą się: lista zadań, kalendarz tygodniowy i proste statystyki.
+# Diagram – Aplikacja do planowania nauki
 
 ```mermaid
 flowchart TD
+    START([START])
+    LOGIN[Logowanie / Profil użytkownika]
+    EDIT[Dodaj / Edytuj zadanie]
+    LISTA[Lista zadań]
+    SYNC[Synchronizacja / przypomnienia]
+    KALENDARZ[Kalendarz tygodniowy]
+    STATY[Proste statystyki (postęp)]
+    POW[Powiadomienia]
+    END([KONIEC])
 
-ASCII flowchart:
+    START --> LOGIN
+    LOGIN --> EDIT
+    EDIT --> LISTA
+    LISTA --> KALENDARZ
+    KALENDARZ --> STATY
+    STATY --> POW
+    POW --> END
 
-+-------------------+
-|       START       |
-+-------------------+
-         |
-         v
-+---------------------------+
-| Logowanie / Profil użytk. |
-+---------------------------+
-         |
-         v
-+---------------------------+
-|  Dodaj / Edytuj zadanie   |
-+---------------------------+
-         |
-         v
-+-----------+   +-------------------+
-|  Lista    |<--|  Synchronizacja   |
-| zadań     |   |  / przypomnienia  |
-+-----------+   +-------------------+
-         |
-         v
-+---------------------------+
-| Kalendarz tygodniowy      |
-+---------------------------+
-         |
-         v
-+---------------------------+
-| Proste statystyki (postęp)|
-+---------------------------+
-         |
-         v
-+-------------------+
-|   Powiadomienia   |
-+-------------------+
-         |
-         v
-+-------------------+
-|       KONIEC      |
-+-------------------+
+    LISTA <---> SYNC
