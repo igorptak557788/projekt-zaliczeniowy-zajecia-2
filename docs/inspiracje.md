@@ -1,6 +1,8 @@
+markdown
+
+# Inspiracje
 
 
-Inspiracje projektu - plik: inspiracje.txt
 
 1) Słowa / skojarzenia / pomysły
 - szybkie, intuicyjne, proste
