@@ -2,11 +2,11 @@ markdown
 
 # Diagram Projektu
 
-```mermaid
-flowchart TD
-
 Projekt: Aplikacja do planowania nauki
 Projekt dotyczy aplikacji pomagającej planować naukę. Rozwiązuje problem braku struktury i przeładowania informacjami w trakcie studiów. Odbiorcami są osoby 18–25 lat, które chcą lepiej organizować zadania. W aplikacji znajdą się: lista zadań, kalendarz tygodniowy i proste statystyki.
+
+```mermaid
+flowchart TD
 
 ASCII flowchart:
 
