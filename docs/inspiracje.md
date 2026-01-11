@@ -1,60 +1,89 @@
-markdown
+# Inspiracje projektu
 
-# Inspiracje
-
-
-
-1) Słowa / skojarzenia / pomysły
+## 1. Słowa, skojarzenia i pomysły
 - szybkie, intuicyjne, proste
 - edukacja, onboarding, microlearning
 - społeczność, współpraca, sharing
-- gamifikacja, poziomy, odznaki
+- gamifikacja: poziomy, odznaki
 - filtrowanie, tagi, katalog
 - mapa, lokalne wydarzenia, eksploracja
 - rekomendacje, personalizacja, AI
 - offline, synchronizacja, eksport/import
 - minimalizm, dostępność, responsywność
 
-2) Krótka lista elementów projektu
-- Frontend: responsywny UI (React/Vue/HTML/CSS)
-- Backend: API REST/GraphQL (Node/Express, Python/FastAPI)
-- Baza danych: PostgreSQL / MongoDB / SQLite
-- Autoryzacja: JWT / OAuth
-- Przechowywanie plików: S3 / lokalnie
-- Testy: jednostkowe i integracyjne
-- CI/CD: GitHub Actions / GitLab CI
-- Dokumentacja użytkownika i deweloperska
+---
+
+## 2. Kluczowe elementy projektu
+
+### Frontend
+- responsywny interfejs użytkownika  
+  (React / Vue / HTML / CSS)
+
+### Backend
+- API REST lub GraphQL  
+  (Node + Express, Python + FastAPI)
+
+### Baza danych
+- PostgreSQL / MongoDB / SQLite
+
+### Autoryzacja
+- JWT / OAuth
+
+### Pozostałe
+- przechowywanie plików: S3 lub lokalnie
+- testy jednostkowe i integracyjne
+- CI/CD: GitHub Actions lub GitLab CI
+- dokumentacja użytkownika i deweloperska
 - MVP: podstawowa funkcjonalność + onboarding
 
-3) Wstępne dane wejściowe (przykłady)
-- Lista kategorii:
-    - Edukacja, Rozrywka, Narzędzia, Społeczność, Wydarzenia, Mapy, Zasoby
-- Lista funkcji:
-    - rejestracja / logowanie
-    - przeglądanie katalogu
-    - wyszukiwanie i filtrowanie po tagach/kategoriach
-    - dodawanie i edycja wpisów
-    - komentarze i oceny
-    - powiadomienia / subskrypcje
-    - synchronizacja offline / eksport danych
-    - system rekomendacji (prosty algorytm na start)
-    - statystyki użytkownika / dashboard
+---
 
-4) Lista źródeł pomysłu
-- znajomy / kolega z zajęć
-- inspiracja z wykładu / ćwiczeń
-- analiza konkurencji (aplikacje podobne)
+## 3. Wstępne dane wejściowe
+
+### Kategorie
+- Edukacja
+- Rozrywka
+- Narzędzia
+- Społeczność
+- Wydarzenia
+- Mapy
+- Zasoby
+
+### Funkcje
+- rejestracja i logowanie
+- przeglądanie katalogu
+- wyszukiwanie oraz filtrowanie po tagach i kategoriach
+- dodawanie i edycja wpisów
+- komentarze i oceny
+- powiadomienia i subskrypcje
+- synchronizacja offline i eksport danych
+- prosty system rekomendacji
+- statystyki użytkownika (dashboard)
+
+---
+
+## 4. Źródła inspiracji
+- znajomy lub kolega z zajęć
+- inspiracja z wykładu lub ćwiczeń
+- analiza konkurencji
 - blogi technologiczne i Product Hunt
 - projekty open-source na GitHubie
-- własne potrzeby i codzienne bolączki
+- własne potrzeby i codzienne problemy
 
-5) Notatki projektowe / kolejne kroki
-- ustalić MVP i priorytety funkcji
-- zdefiniować schemat danych i minimalne API
-- przygotować prototyp UI (papier / Figma)
-- zebrać feedback od potencjalnych użytkowników
-- zaplanować harmonogram i podział zadań
-- metryki sukcesu: aktywni użytkownicy, retencja, liczba dodanych wpisów
+---
 
-Data wygenerowania: (uzupełnić)
-Autor pomysłów: (uzupełnić)
+## 5. Notatki projektowe i kolejne kroki
+- ustalenie MVP i priorytetów funkcji
+- zdefiniowanie schematu danych i minimalnego API
+- przygotowanie prototypu UI (papier lub Figma)
+- zebranie feedbacku od użytkowników
+- zaplanowanie harmonogramu i podziału zadań
+- metryki sukcesu:
+  - aktywni użytkownicy
+  - retencja
+  - liczba dodanych wpisów
+
+---
+
+**Data wygenerowania:** _(do uzupełnienia)_  
+**Autor pomysłów:** _(do uzupełnienia)_
