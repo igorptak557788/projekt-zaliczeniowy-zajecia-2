@@ -6,9 +6,9 @@ flowchart TD
     LOGIN[Logowanie / Profil użytkownika]
     EDIT[Dodaj / Edytuj zadanie]
     LISTA[Lista zadań]
-    SYNC[Synchronizacja / przypomnienia]
+    SYNC[Synchronizacja i przypomnienia]
     KALENDARZ[Kalendarz tygodniowy]
-    STATY[Proste statystyki (postęp)]
+    STATY[Proste statystyki postępu]
     POW[Powiadomienia]
     END([KONIEC])
 
